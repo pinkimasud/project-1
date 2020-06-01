@@ -1,0 +1,162 @@
+/* // Extra small devices (portrait phones, less than 576px)
+     @media (max-width: 575.98) {}
+// No media query for `xs` since this is the default in Bootstrap */
+/* Extra small devices (portrait phones, less than 576px) */
+     @media (max-width: 575.98) {
+        .head {
+            padding: 10px 0px;
+        }
+        /*banner section*/
+        .hg{
+           min-height: 55vh;
+        }
+        .icon{
+            font-size: 16px;
+        }
+        .banner-content h1{
+            font-size: 44px;
+        }
+        .banner-content span {
+            width: 260px;
+        }
+        /* design section start */
+        .pure-design{
+            padding-top: 35px;
+        }
+        .text-content {
+            margin-top: 40px 0px;
+        }
+        .text-content h3 {
+            margin-bottom: 22px;
+        }
+        /*service section*/
+        .service-section{
+            margin: 40px 0px;
+        }
+        .service-content  h4{
+            font-size: 18px;
+        }
+        .service-content p{
+            font-size: 14px;
+        }
+        .service-icon {
+            font-size: 30px;
+            height: 70px;
+            width: 70px;
+        }
+        .mobile i {
+            bottom: -7px;
+            left: 25px;
+        }
+        .plane i{
+            line-height: 70px;
+        }
+        .bullhorn i{
+            line-height: 70px;
+        }
+        /*showcase section*/
+        .head-showcase h2{
+            font-size: 27px;
+        }
+        .icon{
+            font-size: 8px;
+        }
+        .icon-i{
+            padding: 4px;
+        }
+        /*form section*/
+        .form-check ul li{
+           font-size: 10px;
+        }
+        .btn-custom-form {
+            padding: 3px 14px;
+        }
+        .terms ul li a{
+            font-size: 11px;
+        }
+
+     }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   /* herader section start */
+    .head {
+        padding: 10px 0px;
+    }
+    /*banner section*/
+    .hg{
+       min-height: 55vh;
+    }
+    .banner-content h1{
+        font-size: 44px;
+    }
+    .banner-content span {
+        width: 260px;
+    }
+    /* design section start */
+    .pure-design{
+        padding-top: 35px;
+    }
+    .text-content {
+        margin-top: 40px 0px;
+    }
+    .text-content h3 {
+        margin-bottom: 22px;
+    }
+    /*service section*/
+    .service-section{
+        margin: 40px 0px;
+    }
+    .service-content  h4{
+        font-size: 20px;
+    }
+    .service-content p{
+        font-size: 15px;
+    }
+    .service-icon {
+        font-size: 30px;
+        height: 70px;
+        width: 70px;
+    }
+    .mobile i {
+        bottom: -7px;
+        left: 25px;
+    }
+    .plane i{
+        line-height: 70px;
+    }
+    .bullhorn i{
+        line-height: 70px;
+    }
+    /*showcase section*/
+    .head-showcase h2{
+        font-size: 27px;
+    }
+    .icon{
+        font-size: 12px;
+    }
+    .icon-i{
+        padding: 8px;
+    }
+    /*form section*/
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .service-content  h4{
+        font-size: 20px;
+    }
+    .icon-i{
+        padding: 8px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+/* 
+// Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+}

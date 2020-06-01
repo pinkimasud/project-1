@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.section-padding{
+    padding: 100px 0px;
+}
+/* herader section start */
+.head{
+    background-color:#f6f9f9 ;
+    padding: 20px 0px;
+
+}
+.navbar-brand{
+    width: 50px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+/*banner section*/
+.banner-section{
+    position: relative;
+    background-image:url(../images/banner.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hg{
+    min-height: 80vh;
+}
+.banner-content{
+    position: relative;
+}
+.banner-content h1{
+        font-size: 60px;
+        color: #fff;
+}
+.banner-content span{
+    background-color: #15a4fa63;
+    display: inline-block;
+    height: 4px;
+    width: 347px;
+}
+.banner-content p{
+    margin: 31px;
+    color: #fff;
+}
+.btn-custom{
+    margin-top: 30px;
+    color: #fff;
+    padding: 10px;
+
+}
+.btn-outline-primary:hover {
+    background-color: #15a4fab0;
+}
+.btn-outline-primary {
+    border-color: #508db7;
+}
+.font-icon{
+    height:100px ;
+    width: 100%;
+    /* position: relative; */
+}
+.font-icon i{
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    top: 50%;
+    left: 48%;
+    /* transform: translate(-50% -50%); */
+    animation: icon-animation 2s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes icon-animation{
+    0% {
+        top: 100%;
+    }
+    
+    100% {
+        top: 85%; 
+ }  
+
+}
+/* design section start */
+.pure-design{
+   
+    background-color: #f6f9f9;
+}
+.text-content{
+    margin-top: 70px 0px;
+}
+.text-content h3{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#212529;
+}
+.text-content p{
+    text-align: center;
+    color: #b7bcc1;
+    margin-bottom: 52px;
+    line-height: 1.5;
+
+}
+/*service section*/
+/* .service-section{
+    margin: 20px 0px;
+} */
+.service-hg{
+    min-height: 50vh;
+}
+.items{
+    text-align: center;
+}
+.service-icon{
+    font-size: 35px;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,5fc3ff+52,5fc3ff+100 */
+    background: rgb(72,186,255); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(72,186,255,1) 0%, rgba(72,186,255,1) 50%, rgba(95,195,255,1) 52%, rgba(95,195,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(72,186,255,1) 0%,rgba(72,186,255,1) 50%,rgba(95,195,255,1) 52%,rgba(95,195,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(72,186,255,1) 0%,rgba(72,186,255,1) 50%,rgba(95,195,255,1) 52%,rgba(95,195,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+    color: #fff;
+    line-height: 80px;
+    position: relative;
+}
+.items:hover .service-icon{
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+}
+.service-icon i{
+    padding: 5px;
+    left: 22px;
+    line-height: 89px;
+    position: absolute;
+}
+.mobile i{
+    padding: 0px;
+    left: 28px;
+    line-height: 80px;
+    position: absolute;
+}
+.plane i{
+    padding: 0px;
+    line-height: 70px;
+    position: absolute;
+}
+.bullhorn i{
+    padding: 0px;
+    line-height: 70px;
+    position: absolute;
+}
+.service-content{
+    margin: 20px 0px;
+}
+.service-content h4{
+    font-size: 20px;
+}
+.service-content p{
+    text-align: center;
+}
+/*showcase section*/
+.showcase-section{
+    background-color: #f6f9f9;
+}
+.icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 22px;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+.icon i{ 
+/* margin-right: 10px; */
+border: 1px solid #fff;
+padding: 8px;
+border-radius: 5px;
+}
+.gl-image{
+    position: relative;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.gl-image:hover .icon{
+    opacity: 1;
+
+}
+.gl-image::before{
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background:#15a4fa;
+    position: absolute;
+    opacity: 50%;
+    transition:all 0.4s ease;
+}
+.gl-image:hover::before{
+    bottom: 100%;
+    height: 100%;
+}
+
+/*form section*/
+.contact-form{ 
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    position: relative;
+}
+.contact-form::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:#2a3549;
+    position: absolute; 
+    opacity: 70%;   
+}
+.form-custom{
+    margin: 50px 0px;
+}
+.form-head{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 36px;
+}
+input::placeholder{
+    color: #fff;
+}
+input#inputEmail3 {
+    background: transparent;
+    margin-bottom: 10px;
+}
+input#inputPassword3 {
+    background: transparent;
+    margin-bottom: 10px;
+}
+textarea.form-control.text {
+    background: transparent;
+    margin-bottom: 10px;
+}
+.form-check ul li{
+    color: #fff;
+}
+.custom-check{
+    display: inline-block;
+}
+.btn-custom-form {
+    color: #fff;
+    padding: 5px 20px;
+    float: right;
+    border-color: #fff;
+}
+.btn-custom-form:hover{
+    color: #fff !important;
+}
+.btn-outline-primary:hover {
+    border-color: #a9a9a9;
+}
+/*footer section*/
+.footer-section{
+    background-color:#f6f9f9;
+}
+.hg-footer{
+    min-height: 9vh;
+ }
+ dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0; 
+}
+ .footer-content{
+     padding-top: 40px;
+ }
+ .terms ul li a{
+     font-size: 14px;
+     color: #999999; 
+     text-transform: uppercase;
+ }
+ .social-follow ul li a{
+     color:#15a4fa ;
+     font-size: 24px;
+}
+ .social-follow ul li a:hover{
+     color: #48baff;
+ }
